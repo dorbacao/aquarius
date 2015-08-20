@@ -98,12 +98,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Data.EF\Data.EF.csproj">
-      <Project>{b0728fa9-2db4-4118-9843-e507c7fccf69}</Project>
-      <Name>Data.EF</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>

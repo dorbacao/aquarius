@@ -1,10 +1,7 @@
 ﻿using System;
 using System.Linq.Expressions;
-using Vvs.Domain.Seedwork.Aggregates;
-using Vvs.Domain.Seedwork.Repositorios;
-using Vvs.Domain.Seedwork.UnitOfWork;
 
-namespace Vvs.Infraestrutura.Data.EF.Testes.Aggregates.Models
+namespace Aquarius.Data.EF.Testes.Aggregates.Models
 {
     public class CompanyRepository : Repository<Company>
     {

@@ -1,7 +1,6 @@
 ﻿using System.Linq;
-using Vvs.Data.Criteria;
 
-namespace Vvs.Data.Tests.Criterios.Estado
+namespace Aquarius.Data.Tests.Criterios.Estado
 {
     public class DoPais : ICriteria<Modelo.Estado>
     {

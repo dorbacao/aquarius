@@ -1,14 +1,13 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data.Common;
 using System.Data.Entity;
 using System.Linq;
 using System.Transactions;
-using Vvs.Infraestrutura.Data.EF.GraphDiff.fork;
-using Vvs.Infraestrutura.Data.EF.Testes.GraphDiff.Models;
+using Aquarius.Data.EF.Testes.GraphDiff.Models;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Vvs.Infraestrutura.Data.EF.Testes.GraphDiff
+namespace Aquarius.Data.EF.Testes.GraphDiff
 {
 
     /// <summary>

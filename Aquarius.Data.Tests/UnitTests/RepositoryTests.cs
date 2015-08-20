@@ -1,17 +1,15 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using NUnit.Framework;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Vvs.Data.Exceptions;
-using Vvs.Data.Memory;
-using Vvs.Data.Tests.Criterios.Estado;
-using Vvs.Data.Tests.Criterios.Pais;
-using Vvs.Data.Tests.Data;
-using Vvs.Data.Tests.Modelo;
+using Aquarius.Data.Tests.Criterios.Estado;
+using Aquarius.Data.Tests.Criterios.Pais;
+using Aquarius.Data.Tests.Data;
+using Aquarius.Data.Tests.Modelo;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using Assert = Microsoft.VisualStudio.TestTools.UnitTesting.Assert;
 
-namespace Vvs.Data.Tests.UnitTests
+namespace Aquarius.Data.Tests.UnitTests
 {
 
     [TestClass]

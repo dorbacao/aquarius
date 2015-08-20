@@ -3,10 +3,10 @@ using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
 using System.Data.Entity.ModelConfiguration;
 using System.Data.Entity.ModelConfiguration.Conventions;
-using Vvs.Infraestrutura.Data.SqlClient.Tests.Modelo;
-using Vvs.Infraestrutura.Data.SqlClient.Tests.UnitOfWork.Mapping;
+using Aquarius.Data.SqlClient.Tests.Modelo;
+using Aquarius.Data.SqlClient.Tests.UnitOfWork.Mapping;
 
-namespace Vvs.Infraestrutura.Data.SqlClient.Tests.UnitOfWork
+namespace Aquarius.Data.SqlClient.Tests.UnitOfWork
 {
     public class MainUnitOfWork : EF.UnitOfWork, IDisposable
     {        

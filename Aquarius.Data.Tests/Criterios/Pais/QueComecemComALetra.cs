@@ -1,6 +1,4 @@
-﻿using Vvs.Data.Criteria;
-
-namespace Vvs.Data.Tests.Criterios.Pais
+﻿namespace Aquarius.Data.Tests.Criterios.Pais
 {
     public class QueComecemComALetra : Criteria<Modelo.Pais>
     {

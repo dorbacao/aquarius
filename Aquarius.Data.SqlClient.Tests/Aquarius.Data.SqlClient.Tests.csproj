@@ -6,8 +6,8 @@
     <ProjectGuid>{8D767E8B-A5C7-44BB-866A-3C46741F7730}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Vvs.Infraestrutura.Data.SqlClient.Tests</RootNamespace>
-    <AssemblyName>Vvs.Infraestrutura.Data.SqlClient.Tests</AssemblyName>
+    <RootNamespace>Aquarius.Data.SqlClient.Tests</RootNamespace>
+    <AssemblyName>Aquarius.Data.SqlClient.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -83,16 +83,6 @@
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Data.EF\Data.EF.csproj">
-      <Project>{b0728fa9-2db4-4118-9843-e507c7fccf69}</Project>
-      <Name>Data.EF</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Data.SqlClient\Data.SqlClient.csproj">
-      <Project>{4ae1d49b-bdcb-479b-94e6-35f6158e1035}</Project>
-      <Name>Data.SqlClient</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup />
   <Choose>

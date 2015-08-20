@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Vvs.Data.Tests.Modelo
+namespace Aquarius.Data.Tests.Modelo
 {
     public class Cidade : EntityBase
     {

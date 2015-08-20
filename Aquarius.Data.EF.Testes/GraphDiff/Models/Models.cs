@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Vvs.Infraestrutura.Data.EF.Testes.GraphDiff.Models
+namespace Aquarius.Data.EF.Testes.GraphDiff.Models
 {
     // Manage your company, contacts and projects.
 

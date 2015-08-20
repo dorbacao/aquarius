@@ -1,7 +1,7 @@
 ﻿using System.Data.Entity.ModelConfiguration;
-using Vvs.Infraestrutura.Data.SqlClient.Tests.Modelo;
+using Aquarius.Data.SqlClient.Tests.Modelo;
 
-namespace Vvs.Infraestrutura.Data.SqlClient.Tests.UnitOfWork.Mapping
+namespace Aquarius.Data.SqlClient.Tests.UnitOfWork.Mapping
 {
     public class EntidadeTesteConfiguration : EntityTypeConfiguration<EntidadeTeste>
     {

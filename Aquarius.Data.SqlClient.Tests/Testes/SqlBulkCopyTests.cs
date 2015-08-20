@@ -1,12 +1,11 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
+using Aquarius.Data.SqlClient.Tests.Modelo;
+using Aquarius.Data.SqlClient.Tests.UnitOfWork;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Vvs.Domain.Seedwork.Repositorios;
-using Vvs.Infraestrutura.Data.SqlClient.Tests.Modelo;
-using Vvs.Infraestrutura.Data.SqlClient.Tests.UnitOfWork;
 
-namespace Vvs.Infraestrutura.Data.SqlClient.Tests.Testes
+namespace Aquarius.Data.SqlClient.Tests.Testes
 {
     [TestClass]
     public class SqlBulkCopyTests

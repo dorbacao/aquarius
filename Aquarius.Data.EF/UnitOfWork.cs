@@ -6,9 +6,7 @@ using System.Data.Entity.Core.Objects;
 using System.Data.Entity.Infrastructure;
 using System.Data.Entity.Validation;
 using System.Linq;
-using Aquarius.Data.EF.Queryable;
 using Aquarius.Seedwork.Aggregates;
-using Aquarius.Seedwork.Repositorios.Queryable;
 using Aquarius.Seedwork.UnitOfWork;
 
 namespace Aquarius.Data.EF {

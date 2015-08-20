@@ -1,7 +1,6 @@
-﻿using System.Collections.Generic;
-using Vvs.Data.Tests.Modelo;
+﻿using Aquarius.Data.Tests.Modelo;
 
-namespace Vvs.Data.Tests.Data
+namespace Aquarius.Data.Tests.Data
 {
     public class PaisReadonlyRepository : Vvs.Data.ReadonlyRepository<Pais>
     {

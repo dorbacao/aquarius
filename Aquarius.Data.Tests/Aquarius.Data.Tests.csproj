@@ -6,8 +6,8 @@
     <ProjectGuid>{0A02FEBC-0847-4314-849B-ED7EFA803199}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Vvs.Data.Tests</RootNamespace>
-    <AssemblyName>Vvs.Data.Tests</AssemblyName>
+    <RootNamespace>Aquarius.Data.Tests</RootNamespace>
+    <AssemblyName>Aquarius.Data.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -82,20 +82,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Data.Memory\Data.Memory.csproj">
-      <Project>{60FBDCD6-2EE6-4554-9286-6396D83D5FDB}</Project>
-      <Name>Data.Memory</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Vvs.Data.EF\Data.EF.csproj">
-      <Project>{b0728fa9-2db4-4118-9843-e507c7fccf69}</Project>
-      <Name>Data.EF</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Vvs.Data\Data.csproj">
-      <Project>{6e1d289a-fbf3-47de-8b39-1d4940e53ae3}</Project>
-      <Name>Data</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="Mock\" />
   </ItemGroup>
   <ItemGroup>
@@ -106,6 +92,16 @@
     <EmbeddedResource Include="Migrations\201308201455526_Init.resx">
       <DependentUpon>201308201455526_Init.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Aquarius.Data.EF\Aquarius.Data.EF.csproj">
+      <Project>{b0728fa9-2db4-4118-9843-e507c7fccf69}</Project>
+      <Name>Aquarius.Data.EF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Aquarius.Seedwork\Aquarius.Seedwork.csproj">
+      <Project>{da107a8e-32fe-45c3-bac2-f258b81ae8dc}</Project>
+      <Name>Aquarius.Seedwork</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

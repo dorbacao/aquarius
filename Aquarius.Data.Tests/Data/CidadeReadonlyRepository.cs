@@ -1,6 +1,6 @@
-﻿using Vvs.Data.Tests.Modelo;
+﻿using Aquarius.Data.Tests.Modelo;
 
-namespace Vvs.Data.Tests.Data
+namespace Aquarius.Data.Tests.Data
 {
     public class CidadeReadonlyRepository : Vvs.Data.Repository<Cidade>
     {

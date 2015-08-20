@@ -5,11 +5,10 @@ using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Transactions;
+using Aquarius.Data.EF.Testes.Aggregates.Models;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Vvs.Infraestrutura.Data.EF.GraphDiff;
-using Vvs.Infraestrutura.Data.EF.Testes.Aggregates.Models;
 
-namespace Vvs.Infraestrutura.Data.EF.Testes.Aggregates
+namespace Aquarius.Data.EF.Testes.Aggregates
 {
     /// <summary>
     /// Tests

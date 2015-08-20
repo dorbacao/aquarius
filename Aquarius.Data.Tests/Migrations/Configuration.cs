@@ -1,18 +1,16 @@
-namespace Vvs.Data.Tests.Migrations
-{
-    using System;
-    using System.Data.Entity;
-    using System.Data.Entity.Migrations;
-    using System.Linq;
+using System.Data.Entity.Migrations;
+using Aquarius.Data.Tests.Data;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<Vvs.Data.Tests.Data.MainUnitOfWork>
+namespace Aquarius.Data.Tests.Migrations
+{
+    internal sealed class Configuration : DbMigrationsConfiguration<MainUnitOfWork>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(Vvs.Data.Tests.Data.MainUnitOfWork context)
+        protected override void Seed(MainUnitOfWork context)
         {
             //  This method will be called after migrating to the latest version.
 

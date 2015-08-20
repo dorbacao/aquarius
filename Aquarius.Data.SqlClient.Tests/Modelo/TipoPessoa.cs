@@ -1,4 +1,4 @@
-﻿namespace Vvs.Infraestrutura.Data.SqlClient.Tests.Modelo
+﻿namespace Aquarius.Data.SqlClient.Tests.Modelo
 {
     public enum TipoPessoa
     {

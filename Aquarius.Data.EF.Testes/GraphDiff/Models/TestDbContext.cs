@@ -1,7 +1,7 @@
 ﻿using System.Data.Common;
 using System.Data.Entity;
 
-namespace Vvs.Infraestrutura.Data.EF.Testes.GraphDiff.Models
+namespace Aquarius.Data.EF.Testes.GraphDiff.Models
 {
     public class TestDbContext : DbContext
     {

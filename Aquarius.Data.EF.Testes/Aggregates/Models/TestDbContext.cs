@@ -1,8 +1,7 @@
 ﻿using System.Data.Common;
 using System.Data.Entity;
-using Vvs.Domain.Seedwork.Aggregates;
 
-namespace Vvs.Infraestrutura.Data.EF.Testes.Aggregates.Models
+namespace Aquarius.Data.EF.Testes.Aggregates.Models
 {
     public class TestDbContext : UnitOfWork
     {
