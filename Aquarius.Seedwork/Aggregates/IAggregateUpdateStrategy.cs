@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Linq.Expressions;
-using Vvs.Domain.Seedwork.UnitOfWork;
+using Aquarius.Seedwork.UnitOfWork;
 
-namespace Vvs.Domain.Seedwork.Aggregates
+namespace Aquarius.Seedwork.Aggregates
 {
     /// <summary>
     ///     Interface utilizada por um repositório que encapsular o algoritmo que será usado

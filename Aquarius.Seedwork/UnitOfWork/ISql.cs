@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Vvs.Domain.Seedwork.UnitOfWork
+namespace Aquarius.Seedwork.UnitOfWork
 {
     public interface ISql
     {

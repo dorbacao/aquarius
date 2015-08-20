@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq;
-using Vvs.Domain.Seedwork.Aggregates;
-using Vvs.Domain.Seedwork.Repositorios.Queryable;
+using Aquarius.Seedwork.Aggregates;
+using Aquarius.Seedwork.Repositorios.Queryable;
 
-namespace Vvs.Domain.Seedwork.UnitOfWork
+namespace Aquarius.Seedwork.UnitOfWork
 {
     public interface IUnitOfWork : IQueryableUnitOfWork, ISql, IDisposable
     {

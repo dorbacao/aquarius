@@ -3,7 +3,7 @@ using System.Data.Entity.Core.Metadata.Edm;
 using System.Data.Entity.Core.Objects;
 using System.Linq;
 
-namespace Vvs.Infraestrutura.Data.EF
+namespace Aquarius.Data.EF
 {
     public static class ObjectContextExtensions
     {

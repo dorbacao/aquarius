@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Linq;
 using System.Linq.Expressions;
-using Vvs.Domain.Seedwork.Aggregates;
-using Vvs.Infraestrutura.Data.EF.GraphDiff.fork;
+using Aquarius.Data.EF.GraphDiff.fork;
+using Aquarius.Seedwork.Aggregates;
 
-namespace Vvs.Infraestrutura.Data.EF.GraphDiff
+namespace Aquarius.Data.EF.GraphDiff
 {
 
     internal class UpdateGraphConfigurationBuilder<T> : ExpressionVisitor

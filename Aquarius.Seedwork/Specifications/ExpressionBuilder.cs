@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace Vvs.Domain.Seedwork.Specifications
+namespace Aquarius.Seedwork.Specifications
 {
     /// <summary>
     /// Extension methods for adding AND and OR with parameters rebinder

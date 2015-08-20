@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
-namespace Vvs.Domain.Seedwork.Aggregates
+namespace Aquarius.Seedwork.Aggregates
 {
     public interface IAggregateConfiguration<T>
     {

@@ -1,7 +1,7 @@
 ﻿using System;
-using Vvs.Domain.Seedwork.UnitOfWork;
+using Aquarius.Seedwork.UnitOfWork;
 
-namespace Vvs.Domain.Seedwork.Aggregates
+namespace Aquarius.Seedwork.Aggregates
 {
     /// <summary>
     ///     Classe utilizada por um repositório que define que somente a classe

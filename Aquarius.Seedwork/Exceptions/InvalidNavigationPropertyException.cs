@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Vvs.Domain.Seedwork.Exceptions
+namespace Aquarius.Seedwork.Exceptions
 {
     public class InvalidNavigationPropertyException : Exception
     {

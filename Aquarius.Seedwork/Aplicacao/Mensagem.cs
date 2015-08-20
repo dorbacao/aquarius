@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace Vvs.Domain.Seedwork.Aplicacao
+namespace Aquarius.Seedwork.Aplicacao
 {
     [DataContract]
     public class Mensagem

@@ -1,4 +1,4 @@
-﻿namespace Vvs.Domain.Seedwork.Specifications
+﻿namespace Aquarius.Seedwork.Specifications
 {
     public class TrueSpecification<T> : Specification<T> where T : class
     {

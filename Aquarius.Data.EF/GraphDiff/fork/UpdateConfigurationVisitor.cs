@@ -10,7 +10,7 @@ using System.Linq.Expressions;
 using System.Reflection;
 
 // This should be internal only
-namespace Vvs.Infraestrutura.Data.EF.GraphDiff.fork
+namespace Aquarius.Data.EF.GraphDiff.fork
 {
     /// <summary>
     /// Used internally to represent the update graph

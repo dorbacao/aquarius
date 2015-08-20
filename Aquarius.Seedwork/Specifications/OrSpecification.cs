@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Vvs.Domain.Seedwork.Specifications
+namespace Aquarius.Seedwork.Specifications
 {
     /// <summary>
     /// A Logic OR Specification

@@ -1,5 +1,5 @@
 ﻿
-namespace Vvs.Domain.Seedwork.Repositorios.Queryable
+namespace Aquarius.Seedwork.Repositorios.Queryable
 {
     public interface IQueryableUnitOfWork
     {

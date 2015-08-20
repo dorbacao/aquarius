@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Vvs.Domain.Seedwork.Specifications
+namespace Aquarius.Seedwork.Specifications
 {
     public class AndSpecification<T> : CompositeSpecification<T> where T : class
     {

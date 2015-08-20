@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Vvs.Domain.Seedwork.Aplicacao.Extensions
+namespace Aquarius.Seedwork.Aplicacao.Extensions
 {
     public static class ResponseExtensions
     {

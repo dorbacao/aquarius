@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Vvs.Domain.Seedwork.Aplicacao
+namespace Aquarius.Seedwork.Aplicacao
 {
     public class VoidResponse : IResponse
     {

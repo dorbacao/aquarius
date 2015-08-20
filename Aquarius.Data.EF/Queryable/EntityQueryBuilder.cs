@@ -1,8 +1,8 @@
 ﻿using System.Data.Entity;
 using System.Linq;
-using Vvs.Domain.Seedwork.Repositorios.Queryable;
+using Aquarius.Seedwork.Repositorios.Queryable;
 
-namespace Vvs.Infraestrutura.Data.EF.Queryable
+namespace Aquarius.Data.EF.Queryable
 {
     public class EntityQueryBuilder<TEntidade> : DefaultQueryBuilder<TEntidade> where TEntidade : class
     {

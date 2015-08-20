@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
-namespace Vvs.Domain.Seedwork.Specifications
+namespace Aquarius.Seedwork.Specifications
 {
     /// <summary>
     /// Helper for rebinder parameters without use Invoke method in expressions 

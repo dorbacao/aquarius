@@ -8,7 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
-namespace Vvs.Infraestrutura.Data.EF.GraphDiff.fork
+namespace Aquarius.Data.EF.GraphDiff.fork
 {
     /* Configuration and Mapping of update */
 

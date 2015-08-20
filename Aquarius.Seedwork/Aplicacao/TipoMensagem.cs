@@ -1,5 +1,5 @@
 ﻿
-namespace Vvs.Domain.Seedwork.Aplicacao
+namespace Aquarius.Seedwork.Aplicacao
 {
     public enum TipoMensagem
     {

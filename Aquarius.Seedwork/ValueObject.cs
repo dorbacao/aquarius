@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Reflection;
 
-namespace Vvs.Domain.Seedwork
+namespace Aquarius.Seedwork
 {
     public class ValueObject<TValueObject> : IEquatable<TValueObject>
         where TValueObject : ValueObject<TValueObject>

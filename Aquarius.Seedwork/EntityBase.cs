@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Vvs.Domain.Seedwork
+namespace Aquarius.Seedwork
 {
     /// <summary>
     /// Base class for entities

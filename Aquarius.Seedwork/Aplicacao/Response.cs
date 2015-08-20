@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Vvs.Domain.Seedwork.Aplicacao.Extensions;
+using Aquarius.Seedwork.Aplicacao.Extensions;
 
-namespace Vvs.Domain.Seedwork.Aplicacao
+namespace Aquarius.Seedwork.Aplicacao
 {
     /// <summary>
     ///     Helper Class para criação de Responses.

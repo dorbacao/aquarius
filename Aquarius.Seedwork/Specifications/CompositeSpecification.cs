@@ -1,4 +1,4 @@
-﻿namespace Vvs.Domain.Seedwork.Specifications
+﻿namespace Aquarius.Seedwork.Specifications
 {
     public abstract class CompositeSpecification<T> : Specification<T> where T : class
     {

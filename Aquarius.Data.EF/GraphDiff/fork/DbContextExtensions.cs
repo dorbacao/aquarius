@@ -14,7 +14,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace Vvs.Infraestrutura.Data.EF.GraphDiff.fork
+namespace Aquarius.Data.EF.GraphDiff.fork
 {
     public static class DbContextExtensions
     {

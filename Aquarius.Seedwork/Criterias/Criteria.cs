@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace Vvs.Domain.Seedwork.Criterias
+namespace Aquarius.Seedwork.Criterias
 {
 
     public class Criteria<TEntidade> : ICriteria<TEntidade> where TEntidade : class

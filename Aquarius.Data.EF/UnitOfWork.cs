@@ -6,12 +6,12 @@ using System.Data.Entity.Core.Objects;
 using System.Data.Entity.Infrastructure;
 using System.Data.Entity.Validation;
 using System.Linq;
-using Vvs.Domain.Seedwork.Aggregates;
-using Vvs.Domain.Seedwork.Repositorios.Queryable;
-using Vvs.Domain.Seedwork.UnitOfWork;
-using Vvs.Infraestrutura.Data.EF.Queryable;
+using Aquarius.Data.EF.Queryable;
+using Aquarius.Seedwork.Aggregates;
+using Aquarius.Seedwork.Repositorios.Queryable;
+using Aquarius.Seedwork.UnitOfWork;
 
-namespace Vvs.Infraestrutura.Data.EF {
+namespace Aquarius.Data.EF {
     
     public class UnitOfWork : DbContext, IUnitOfWork {
 

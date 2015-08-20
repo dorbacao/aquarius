@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Data.Entity;
 using System.Linq.Expressions;
-using Vvs.Domain.Seedwork.Aggregates;
-using Vvs.Domain.Seedwork.UnitOfWork;
-using Vvs.Infraestrutura.Data.EF.GraphDiff.fork;
+using Aquarius.Data.EF.GraphDiff.fork;
+using Aquarius.Seedwork.Aggregates;
+using Aquarius.Seedwork.UnitOfWork;
 
-namespace Vvs.Infraestrutura.Data.EF.GraphDiff
+namespace Aquarius.Data.EF.GraphDiff
 {
     /// <summary>
     ///     Cara que realiza a tarefa de atualizar um agregador no unitOfWork utilizando

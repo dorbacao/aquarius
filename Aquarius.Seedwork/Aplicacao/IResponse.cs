@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Vvs.Domain.Seedwork.Aplicacao
+namespace Aquarius.Seedwork.Aplicacao
 {
     public interface IResponse
     {

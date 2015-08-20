@@ -1,5 +1,5 @@
 ﻿
-namespace Vvs.Domain.Seedwork.Specifications
+namespace Aquarius.Seedwork.Specifications
 {
     public interface ISpecification<T> where T : class
     {

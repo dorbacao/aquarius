@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq;
 using System.Linq.Expressions;
-using Vvs.Domain.Seedwork.Exceptions;
+using Aquarius.Seedwork.Exceptions;
 
-namespace Vvs.Domain.Seedwork.Repositorios.Queryable
+namespace Aquarius.Seedwork.Repositorios.Queryable
 {
     public class DefaultQueryBuilder<TEntidade> : IQueryBuilder<TEntidade> where TEntidade : class
     {

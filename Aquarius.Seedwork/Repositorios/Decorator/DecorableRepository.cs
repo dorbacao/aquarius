@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Linq;
 using System.Linq.Expressions;
-using Vvs.Domain.Seedwork.Criterias;
-using Vvs.Domain.Seedwork.UnitOfWork;
+using Aquarius.Seedwork.Criterias;
+using Aquarius.Seedwork.UnitOfWork;
 
-namespace Vvs.Domain.Seedwork.Repositorios.Decorator
+namespace Aquarius.Seedwork.Repositorios.Decorator
 {
 
     /// <summary>

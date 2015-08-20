@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Linq;
 using System.Linq.Expressions;
-using Vvs.Domain.Seedwork.Aggregates;
-using Vvs.Domain.Seedwork.Criterias;
-using Vvs.Domain.Seedwork.Repositorios.Queryable;
-using Vvs.Domain.Seedwork.UnitOfWork;
+using Aquarius.Seedwork.Aggregates;
+using Aquarius.Seedwork.Criterias;
+using Aquarius.Seedwork.Repositorios.Queryable;
+using Aquarius.Seedwork.UnitOfWork;
 
-namespace Vvs.Domain.Seedwork.Repositorios
+namespace Aquarius.Seedwork.Repositorios
 {
     public class Repository<TEntidade> 
         : QueryableRepository<TEntidade>

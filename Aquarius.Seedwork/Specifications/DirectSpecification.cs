@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Linq.Expressions;
 
-
-namespace Vvs.Domain.Seedwork.Specifications
+namespace Aquarius.Seedwork.Specifications
 {
 
     public sealed class DirectSpecification<T> : Specification<T> where T : class

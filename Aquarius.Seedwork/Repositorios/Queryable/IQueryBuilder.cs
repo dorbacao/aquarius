@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace Vvs.Domain.Seedwork.Repositorios.Queryable
+namespace Aquarius.Seedwork.Repositorios.Queryable
 {
     public interface IQueryBuilder<TEntidade> where TEntidade : class
     {

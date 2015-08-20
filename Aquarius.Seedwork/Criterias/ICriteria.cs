@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace Vvs.Domain.Seedwork.Criterias
+namespace Aquarius.Seedwork.Criterias
 {
 
     public interface ICriteria<TEntidade, TOutput>

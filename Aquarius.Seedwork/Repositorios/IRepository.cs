@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Linq;
 using System.Linq.Expressions;
-using Vvs.Domain.Seedwork.Criterias;
-using Vvs.Domain.Seedwork.Repositorios.Queryable;
+using Aquarius.Seedwork.Criterias;
+using Aquarius.Seedwork.Repositorios.Queryable;
 
-namespace Vvs.Domain.Seedwork.Repositorios
+namespace Aquarius.Seedwork.Repositorios
 {
 
     public interface IRepository<TEntidade> : IQueryableRepository<TEntidade> where TEntidade : class

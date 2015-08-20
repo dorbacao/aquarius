@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq;
 using System.Linq.Expressions;
-using Vvs.Domain.Seedwork.UnitOfWork;
+using Aquarius.Seedwork.UnitOfWork;
 
-namespace Vvs.Domain.Seedwork.Repositorios.Queryable
+namespace Aquarius.Seedwork.Repositorios.Queryable
 {
     public interface IQueryableRepository<TEntidade> where TEntidade : class
     {
