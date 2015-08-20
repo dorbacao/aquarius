@@ -7,8 +7,8 @@
     <ProjectGuid>{DA107A8E-32FE-45C3-BAC2-F258B81AE8DC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Vvs.Domain.Seedwork</RootNamespace>
-    <AssemblyName>Vvs.Domain.Seedwork</AssemblyName>
+    <RootNamespace>Aquarius.Seedwork</RootNamespace>
+    <AssemblyName>Aquarius.Seedwork</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SccProjectName>SAK</SccProjectName>

@@ -7,8 +7,8 @@
     <ProjectGuid>{B0728FA9-2DB4-4118-9843-E507C7FCCF69}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Vvs.Infraestrutura.Data.EF</RootNamespace>
-    <AssemblyName>Vvs.Infraestrutura.Data.EF</AssemblyName>
+    <RootNamespace>Aquarius.Data.EF</RootNamespace>
+    <AssemblyName>Aquarius.Data.EF</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SccProjectName>SAK</SccProjectName>
@@ -66,9 +66,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Seedwork\Seedwork.csproj">
+    <ProjectReference Include="..\..\Aquarius.Seedwork\Aquarius.Seedwork.csproj">
       <Project>{da107a8e-32fe-45c3-bac2-f258b81ae8dc}</Project>
-      <Name>Seedwork</Name>
+      <Name>Aquarius.Seedwork</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
