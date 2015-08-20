@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testes", "Testes", "{C010580E-4E29-4619-87F9-8B54FA7490E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.EF", "Data.EF\Data.EF.csproj", "{B0728FA9-2DB4-4118-9843-E507C7FCCF69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.SqlClient", "Data.SqlClient\Data.SqlClient.csproj", "{4AE1D49B-BDCB-479B-94E6-35F6158E1035}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.SqlClient.Tests", "Data.SqlClient.Tests\Data.SqlClient.Tests.csproj", "{8D767E8B-A5C7-44BB-866A-3C46741F7730}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A4F015A9-82EF-484B-B3C6-71D0CAFEA8C1}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Tests", "Northwind.Tests\Northwind.Tests.csproj", "{F369520F-EF77-4E92-B4E4-9EBD78E4CB4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.EF.Testes", "Data.EF.Testes\Data.EF.Testes.csproj", "{8E0787A2-258B-4675-B93E-57F79D094BBF}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs.vvs:8080/tfs/csharp
+		SccProjectUniqueName0 = Data.EF\\Data.EF.csproj
+		SccProjectName0 = Data.EF
+		SccLocalPath0 = Data.EF
+		SccProjectUniqueName1 = Data.SqlClient\\Data.SqlClient.csproj
+		SccProjectName1 = Data.SqlClient
+		SccLocalPath1 = Data.SqlClient
+		SccProjectUniqueName2 = Data.SqlClient.Tests\\Data.SqlClient.Tests.csproj
+		SccProjectTopLevelParentUniqueName2 = Data.EF.sln
+		SccProjectName2 = Data.SqlClient.Tests
+		SccLocalPath2 = Data.SqlClient.Tests
+		SccProjectUniqueName3 = Northwind.Tests\\Northwind.Tests.csproj
+		SccProjectTopLevelParentUniqueName3 = Data.EF.sln
+		SccProjectName3 = Northwind.Tests
+		SccLocalPath3 = Northwind.Tests
+		SccProjectUniqueName4 = Data.EF.Testes\\Data.EF.Testes.csproj
+		SccProjectTopLevelParentUniqueName4 = Data.EF.sln
+		SccProjectName4 = Data.EF.Testes
+		SccLocalPath4 = Data.EF.Testes
+		SccLocalPath5 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0728FA9-2DB4-4118-9843-E507C7FCCF69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0728FA9-2DB4-4118-9843-E507C7FCCF69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0728FA9-2DB4-4118-9843-E507C7FCCF69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0728FA9-2DB4-4118-9843-E507C7FCCF69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AE1D49B-BDCB-479B-94E6-35F6158E1035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AE1D49B-BDCB-479B-94E6-35F6158E1035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AE1D49B-BDCB-479B-94E6-35F6158E1035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AE1D49B-BDCB-479B-94E6-35F6158E1035}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D767E8B-A5C7-44BB-866A-3C46741F7730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D767E8B-A5C7-44BB-866A-3C46741F7730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D767E8B-A5C7-44BB-866A-3C46741F7730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D767E8B-A5C7-44BB-866A-3C46741F7730}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F369520F-EF77-4E92-B4E4-9EBD78E4CB4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F369520F-EF77-4E92-B4E4-9EBD78E4CB4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F369520F-EF77-4E92-B4E4-9EBD78E4CB4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F369520F-EF77-4E92-B4E4-9EBD78E4CB4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E0787A2-258B-4675-B93E-57F79D094BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E0787A2-258B-4675-B93E-57F79D094BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E0787A2-258B-4675-B93E-57F79D094BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E0787A2-258B-4675-B93E-57F79D094BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8D767E8B-A5C7-44BB-866A-3C46741F7730} = {C010580E-4E29-4619-87F9-8B54FA7490E3}
+		{F369520F-EF77-4E92-B4E4-9EBD78E4CB4B} = {C010580E-4E29-4619-87F9-8B54FA7490E3}
+		{8E0787A2-258B-4675-B93E-57F79D094BBF} = {C010580E-4E29-4619-87F9-8B54FA7490E3}
+	EndGlobalSection
+EndGlobal
