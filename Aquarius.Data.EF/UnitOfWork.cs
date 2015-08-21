@@ -1,26 +1,25 @@
-﻿using System;
+﻿
 using System.Collections.Generic;
-using System.Data.Common;
-using System.Data.Entity;
 using System.Data.Entity.Core.Objects;
 using System.Data.Entity.Infrastructure;
 using System.Data.Entity.Validation;
 using System.Linq;
-using Aquarius.Seedwork.Aggregates;
-using Aquarius.Seedwork.UnitOfWork;
+using System;
+using System.Data.Common;
+using System.Data.Entity;
 
 namespace Aquarius.Data.EF {
     
-    public class UnitOfWork : DbContext, IUnitOfWork {
+    public class UnitOfWork : DbContext, Aquarius.Seedwork.UnitOfWork.IUnitOfWork {
 
         public UnitOfWork() : base() { }
 
         public UnitOfWork(string nameOrConnectionString)
-            : this(nameOrConnectionString, new OnlyAggregateRootUpdateStrategy())
+            : this(nameOrConnectionString, new Aquarius.Seedwork.Aggregates.OnlyAggregateRootUpdateStrategy())
         {
         }
 
-        public UnitOfWork(string nameOrConnectionString, IAggregateUpdateStrategy aggregateUpdateStrategy)
+        public UnitOfWork(string nameOrConnectionString, Aquarius.Seedwork.Aggregates.IAggregateUpdateStrategy aggregateUpdateStrategy)
             : base(nameOrConnectionString)
         {
             if (aggregateUpdateStrategy == null) throw new ArgumentNullException("aggregateUpdateStrategy");
@@ -28,12 +27,12 @@ namespace Aquarius.Data.EF {
         }
 
         public UnitOfWork(DbConnection existingConnection, bool contextOwnsConnection)
-            : this(existingConnection, contextOwnsConnection, new OnlyAggregateRootUpdateStrategy())
+            : this(existingConnection, contextOwnsConnection, new Aquarius.Seedwork.Aggregates.OnlyAggregateRootUpdateStrategy())
         {
         }
 
         public UnitOfWork(DbConnection existingConnection, bool contextOwnsConnection,
-            IAggregateUpdateStrategy aggregateUpdateStrategy) : base(existingConnection, contextOwnsConnection)
+            Aquarius.Seedwork.Aggregates.IAggregateUpdateStrategy aggregateUpdateStrategy) : base(existingConnection, contextOwnsConnection)
         {
             if (aggregateUpdateStrategy == null) throw new ArgumentNullException("aggregateUpdateStrategy");
             this.AggregateUpdateStrategy = aggregateUpdateStrategy;
@@ -134,15 +133,15 @@ namespace Aquarius.Data.EF {
             return base.Database.SqlQuery<T>(sql, parameters). ToList();
         }
 
-        public virtual IAggregateUpdateStrategy AggregateUpdateStrategy { get; private set; }
+        public virtual Aquarius.Seedwork.Aggregates.IAggregateUpdateStrategy AggregateUpdateStrategy { get; private set; }
 
         #endregion
 
         #region ' IQueryableUnitOfWork '
 
-        public IQueryBuilder<TEntidade> CreateQueryBuilder<TEntidade>() where TEntidade : class
+        public Aquarius.Seedwork.Repositorios.Queryable.IQueryBuilder<TEntidade> CreateQueryBuilder<TEntidade>() where TEntidade : class
         {
-            return new EntityQueryBuilder<TEntidade>();
+            return new Aquarius.Data.EF.Queryable.EntityQueryBuilder<TEntidade>();
         }
 
         #endregion

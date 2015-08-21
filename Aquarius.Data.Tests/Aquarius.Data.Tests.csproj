@@ -93,16 +93,6 @@
       <DependentUpon>201308201455526_Init.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Aquarius.Data.EF\Aquarius.Data.EF.csproj">
-      <Project>{b0728fa9-2db4-4118-9843-e507c7fccf69}</Project>
-      <Name>Aquarius.Data.EF</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Aquarius.Seedwork\Aquarius.Seedwork.csproj">
-      <Project>{da107a8e-32fe-45c3-bac2-f258b81ae8dc}</Project>
-      <Name>Aquarius.Seedwork</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

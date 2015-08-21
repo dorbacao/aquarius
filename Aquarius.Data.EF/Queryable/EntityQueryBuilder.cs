@@ -1,10 +1,9 @@
 ﻿using System.Data.Entity;
 using System.Linq;
-using Aquarius.Seedwork.Repositorios.Queryable;
 
 namespace Aquarius.Data.EF.Queryable
 {
-    public class EntityQueryBuilder<TEntidade> : DefaultQueryBuilder<TEntidade> where TEntidade : class
+    public class EntityQueryBuilder<TEntidade> : Aquarius.Seedwork.Repositorios.Queryable.DefaultQueryBuilder<TEntidade> where TEntidade : class
     {
 
         /// <summary>

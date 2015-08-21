@@ -3,7 +3,7 @@ using System.Data.Entity;
 using System.Linq.Expressions;
 using Aquarius.Data.EF.GraphDiff.fork;
 using Aquarius.Seedwork.Aggregates;
-using Aquarius.Seedwork.UnitOfWork;
+
 
 namespace Aquarius.Data.EF.GraphDiff
 {
@@ -15,7 +15,7 @@ namespace Aquarius.Data.EF.GraphDiff
     {
         #region ' IAggregateUpdateStrategy '
 
-        public override void AlterarAgregacao<TAggRoot>(IUnitOfWork unitOfWork, TAggRoot aggRoot, Expression<Func<IAggregateConfiguration<TAggRoot>, object>> aggregateConfiguration)
+        public override void AlterarAgregacao<TAggRoot>(Aquarius.Seedwork.UnitOfWork.IUnitOfWork unitOfWork, TAggRoot aggRoot, Expression<Func<Aquarius.Seedwork.Aggregates.IAggregateConfiguration<TAggRoot>, object>> aggregateConfiguration)
         {
             // Recupera DbContext
             var dbContext = unitOfWork as DbContext;
