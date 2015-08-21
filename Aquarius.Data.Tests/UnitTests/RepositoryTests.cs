@@ -5,8 +5,8 @@ using Aquarius.Data.Tests.Criterios.Estado;
 using Aquarius.Data.Tests.Criterios.Pais;
 using Aquarius.Data.Tests.Data;
 using Aquarius.Data.Tests.Modelo;
+using Aquarius.Seedwork.UnitOfWork;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using NUnit.Framework;
 using Assert = Microsoft.VisualStudio.TestTools.UnitTesting.Assert;
 
 namespace Aquarius.Data.Tests.UnitTests

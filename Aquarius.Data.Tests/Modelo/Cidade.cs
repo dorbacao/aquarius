@@ -1,4 +1,5 @@
 ﻿using System;
+using Aquarius.Seedwork;
 
 namespace Aquarius.Data.Tests.Modelo
 {

@@ -1,9 +1,11 @@
 ﻿using System.Data.Entity.ModelConfiguration;
 using System.Data.Entity.ModelConfiguration.Conventions;
+using Aquarius.Data.EF;
+using Aquarius.Seedwork;
 
 namespace Aquarius.Data.Tests.Data
 {
-    public class MainUnitOfWork : Vvs.Data.EF.UnitOfWork
+    public class MainUnitOfWork : UnitOfWork
     {
 
         protected override void OnModelCreating(System.Data.Entity.DbModelBuilder modelBuilder)

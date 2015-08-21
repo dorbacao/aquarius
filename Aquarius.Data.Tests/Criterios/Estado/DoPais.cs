@@ -1,4 +1,5 @@
 ﻿using System.Linq;
+using Aquarius.Seedwork.Criterias;
 
 namespace Aquarius.Data.Tests.Criterios.Estado
 {
