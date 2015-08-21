@@ -1,18 +1,16 @@
 ﻿using System;
 using System.Linq;
 using System.Linq.Expressions;
-using Aquarius.Data.EF.GraphDiff.fork;
-using Aquarius.Seedwork.Aggregates;
 
 namespace Aquarius.Data.EF.GraphDiff
 {
 
-    internal class UpdateGraphConfigurationBuilder<T> : ExpressionVisitor
+    public class UpdateGraphConfigurationBuilder<T> : ExpressionVisitor
     {
-        internal Expression<Func<IUpdateConfiguration<T>, object>> ConvertFrom(
-            Expression<Func<IAggregateConfiguration<T>, object>> aggregateConfiguration)
+        internal Expression<Func<Aquarius.Data.EF.GraphDiff.fork.IUpdateConfiguration<T>, object>> ConvertFrom(
+            Expression<Func<Aquarius.Seedwork.Aggregates.IAggregateConfiguration<T>, object>> aggregateConfiguration)
         {
-            var novaExp = Visit(aggregateConfiguration) as Expression<Func<IUpdateConfiguration<T>, object>>;
+            var novaExp = Visit(aggregateConfiguration) as Expression<Func<Aquarius.Data.EF.GraphDiff.fork.IUpdateConfiguration<T>, object>>;
             return novaExp;
         }
 
@@ -22,8 +20,8 @@ namespace Aquarius.Data.EF.GraphDiff
         /// </summary>
         private Type VisitarTipo(Type type)
         {
-            if (type.IsGenericType && type.GetGenericTypeDefinition() == typeof (IAggregateConfiguration<>))
-                return typeof (IUpdateConfiguration<>).MakeGenericType(type.GetGenericArguments());
+            if (type.IsGenericType && type.GetGenericTypeDefinition() == typeof(Aquarius.Seedwork.Aggregates.IAggregateConfiguration<>))
+                return typeof(Aquarius.Data.EF.GraphDiff.fork.IUpdateConfiguration<>).MakeGenericType(type.GetGenericArguments());
             
             return type;
         }
@@ -80,7 +78,7 @@ namespace Aquarius.Data.EF.GraphDiff
             var novosArgumentos = node.Arguments.Select(Visit).ToArray();
 
             // tipos
-            var methodDefinition = typeof(UpdateConfigurationExtensions).GetMethods().Single(m => m.Name == "OwnedCollection" && m.GetParameters().Count() == 1 + node.Arguments.Count);
+            var methodDefinition = typeof(Aquarius.Data.EF.GraphDiff.fork.UpdateConfigurationExtensions).GetMethods().Single(m => m.Name == "OwnedCollection" && m.GetParameters().Count() == 1 + node.Arguments.Count);
             var metodo = methodDefinition.MakeGenericMethod(new Type[] { tAggregador, tProperty });
 
             var arguments = novosArgumentos.ToList();
@@ -103,7 +101,7 @@ namespace Aquarius.Data.EF.GraphDiff
             var novosArgumentos = node.Arguments.Select(Visit).ToArray();
 
             // tipos
-            var methodDefinition = typeof(UpdateConfigurationExtensions).GetMethods().Single(m => m.Name == "OwnedEntity" && m.GetParameters().Count() == 1 + node.Arguments.Count);
+            var methodDefinition = typeof(Aquarius.Data.EF.GraphDiff.fork.UpdateConfigurationExtensions).GetMethods().Single(m => m.Name == "OwnedEntity" && m.GetParameters().Count() == 1 + node.Arguments.Count);
             var metodo = methodDefinition.MakeGenericMethod(new Type[] { tAggregador, tProperty });
 
             var arguments = novosArgumentos.ToList();

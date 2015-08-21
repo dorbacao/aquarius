@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aquarius.Data.EF", "Aquariu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aquarius.Seedwork", "Aquarius.Seedwork\Aquarius.Seedwork.csproj", "{DA107A8E-32FE-45C3-BAC2-F258B81AE8DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aquarius.Data.SqlClient", "Aquarius.Data.SqlClient\Aquarius.Data.SqlClient.csproj", "{4AE1D49B-BDCB-479B-94E6-35F6158E1035}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +56,10 @@ Global
 		{DA107A8E-32FE-45C3-BAC2-F258B81AE8DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA107A8E-32FE-45C3-BAC2-F258B81AE8DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA107A8E-32FE-45C3-BAC2-F258B81AE8DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AE1D49B-BDCB-479B-94E6-35F6158E1035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AE1D49B-BDCB-479B-94E6-35F6158E1035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AE1D49B-BDCB-479B-94E6-35F6158E1035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AE1D49B-BDCB-479B-94E6-35F6158E1035}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
