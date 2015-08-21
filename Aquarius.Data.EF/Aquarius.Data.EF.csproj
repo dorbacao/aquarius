@@ -63,8 +63,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Aquarius.Seedwork\Aquarius.Seedwork.csproj">
-      <Project>{da107a8e-32fe-45c3-bac2-f258b81ae8dc}</Project>
+    <ProjectReference Include="..\Aquarius.Seedwork\Aquarius.Seedwork.csproj">
+      <Project>{DA107A8E-32FE-45C3-BAC2-F258B81AE8DC}</Project>
       <Name>Aquarius.Seedwork</Name>
     </ProjectReference>
   </ItemGroup>

@@ -1,4 +1,6 @@
-﻿namespace Aquarius.Data.Tests.Criterios.Pais
+﻿using Aquarius.Seedwork.Criterias;
+
+namespace Aquarius.Data.Tests.Criterios.Pais
 {
     public class QueComecemComALetra : Criteria<Modelo.Pais>
     {

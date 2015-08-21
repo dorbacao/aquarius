@@ -1,12 +1,13 @@
 ﻿using System.Data.Common;
 using System.Data.Entity;
 using System.Linq;
+using Aquarius.Data.EF;
 using Northwind.Tests.Domain.Entity;
-using Northwind.Tests.UnitOfWork.Mapping;
+using Northwind.Tests.UoW.Mapping;
 
-namespace Northwind.Tests.UnitOfWork
+namespace Northwind.Tests.UoW
 {
-    public class MainUnitOfWork : Vvs.Infraestrutura.Data.EF.UnitOfWork
+    public class MainUnitOfWork : UnitOfWork
     {
         #region ' Constructor '
         

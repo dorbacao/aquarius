@@ -7,10 +7,11 @@ using System.Linq;
 using System;
 using System.Data.Common;
 using System.Data.Entity;
+using Aquarius.Seedwork.UnitOfWork;
 
 namespace Aquarius.Data.EF {
     
-    public class UnitOfWork : DbContext, Aquarius.Seedwork.UnitOfWork.IUnitOfWork {
+    public class UnitOfWork : DbContext, IUnitOfWork {
 
         public UnitOfWork() : base() { }
 

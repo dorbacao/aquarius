@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Vvs.Domain.Seedwork;
+﻿using Aquarius.Seedwork;
 
 namespace Northwind.Tests.Domain.Entity
 {

@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity;
 using System.Linq;
-using Vvs.Domain.Seedwork.Repositorios.Queryable;
+using Aquarius.Seedwork.Repositorios.Queryable;
 
 namespace Northwind.Tests.Domain.Queryable
 {

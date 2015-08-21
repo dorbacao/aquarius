@@ -1,6 +1,6 @@
-﻿using Northwind.Tests.Domain.Entity;
-using Vvs.Domain.Seedwork.Repositorios;
-using Vvs.Domain.Seedwork.UnitOfWork;
+﻿using Aquarius.Seedwork.Repositorios;
+using Aquarius.Seedwork.UnitOfWork;
+using Northwind.Tests.Domain.Entity;
 
 namespace Northwind.Tests.Domain.Repositorios
 {

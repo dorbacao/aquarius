@@ -7,7 +7,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace Vvs.Infraestrutura.Data.SqlClient
+namespace Aquarius.Data.SqlClient.SqlClient
 {
     /// <summary>
     /// Classe quer permite o carregamento em massa de dados para uma tabela no SQL Server.

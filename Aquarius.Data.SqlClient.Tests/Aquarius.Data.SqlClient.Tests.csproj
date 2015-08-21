@@ -51,9 +51,6 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
-    <Reference Include="Vvs.Domain.Seedwork">
-      <HintPath>..\packages\Vvs.Domain.Seedwork.0.0.87\lib\net45\Vvs.Domain.Seedwork.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <Choose>
     <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
@@ -84,7 +81,12 @@
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Aquarius.Seedwork\Aquarius.Seedwork.csproj">
+      <Project>{da107a8e-32fe-45c3-bac2-f258b81ae8dc}</Project>
+      <Name>Aquarius.Seedwork</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -8,7 +8,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Northwind.Tests</RootNamespace>
     <AssemblyName>Northwind.Tests</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -22,6 +22,7 @@
     <SccProvider>SAK</SccProvider>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -60,9 +61,6 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Data" />
     <Reference Include="System.Transactions" />
-    <Reference Include="Vvs.Domain.Seedwork">
-      <HintPath>..\packages\Vvs.Domain.Seedwork.0.0.87\lib\net45\Vvs.Domain.Seedwork.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <Choose>
     <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
@@ -88,12 +86,12 @@
     <Compile Include="Domain\Repositorios\RegionRepository.cs" />
     <Compile Include="Initializers\AssemblyTestsInitialize.cs" />
     <Compile Include="Initializers\MainUnitOfWorkInitializer.cs" />
-    <Compile Include="UnitOfWork\MainUnitOfWork.cs" />
-    <Compile Include="UnitOfWork\Mapping\ClienteTypeConfiguration.cs" />
-    <Compile Include="UnitOfWork\Mapping\FornecedorTypeConfiguration.cs" />
-    <Compile Include="UnitOfWork\Mapping\PessoaTypeConfiguration.cs" />
-    <Compile Include="UnitOfWork\Mapping\TerritoriesTypeConfiguration.cs" />
-    <Compile Include="UnitOfWork\Mapping\RegionTypeConfiguration.cs" />
+    <Compile Include="UoW\MainUnitOfWork.cs" />
+    <Compile Include="UoW\Mapping\ClienteTypeConfiguration.cs" />
+    <Compile Include="UoW\Mapping\FornecedorTypeConfiguration.cs" />
+    <Compile Include="UoW\Mapping\PessoaTypeConfiguration.cs" />
+    <Compile Include="UoW\Mapping\TerritoriesTypeConfiguration.cs" />
+    <Compile Include="UoW\Mapping\RegionTypeConfiguration.cs" />
     <Compile Include="RepositoryTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -102,6 +100,16 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Aquarius.Data.EF\Aquarius.Data.EF.csproj">
+      <Project>{B0728FA9-2DB4-4118-9843-E507C7FCCF69}</Project>
+      <Name>Aquarius.Data.EF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Aquarius.Seedwork\Aquarius.Seedwork.csproj">
+      <Project>{da107a8e-32fe-45c3-bac2-f258b81ae8dc}</Project>
+      <Name>Aquarius.Seedwork</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

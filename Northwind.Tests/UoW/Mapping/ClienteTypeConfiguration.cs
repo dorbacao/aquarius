@@ -1,11 +1,11 @@
 ﻿using System.Data.Entity.ModelConfiguration;
 using Northwind.Tests.Domain.Entity;
 
-namespace Northwind.Tests.UnitOfWork.Mapping
+namespace Northwind.Tests.UoW.Mapping
 {
-    public class PessoaTypeConfiguration : EntityTypeConfiguration<Pessoa>
+    public class ClienteTypeConfiguration : EntityTypeConfiguration<Cliente>
     {
-        public PessoaTypeConfiguration()
+        public ClienteTypeConfiguration()
         {
             // Primary Key
             this.HasKey(r => r.Id);

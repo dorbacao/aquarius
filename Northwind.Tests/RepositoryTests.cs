@@ -5,7 +5,7 @@ using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Northwind.Tests.Domain.Entity;
 using Northwind.Tests.Domain.Repositorios;
-using Northwind.Tests.UnitOfWork;
+using Northwind.Tests.UoW;
 
 namespace Northwind.Tests
 {

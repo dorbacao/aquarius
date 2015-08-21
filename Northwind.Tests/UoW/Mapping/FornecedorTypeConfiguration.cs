@@ -1,11 +1,11 @@
 ﻿using System.Data.Entity.ModelConfiguration;
 using Northwind.Tests.Domain.Entity;
 
-namespace Northwind.Tests.UnitOfWork.Mapping
+namespace Northwind.Tests.UoW.Mapping
 {
-    public class ClienteTypeConfiguration : EntityTypeConfiguration<Cliente>
+    public class FornecedorTypeConfiguration : EntityTypeConfiguration<Fornecedor>
     {
-        public ClienteTypeConfiguration()
+        public FornecedorTypeConfiguration()
         {
             // Primary Key
             this.HasKey(r => r.Id);

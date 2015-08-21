@@ -1,4 +1,4 @@
-﻿using Vvs.Domain.Seedwork;
+﻿using Aquarius.Seedwork;
 
 namespace Northwind.Tests.Domain.Entity
 {

@@ -1,5 +1,5 @@
 ﻿using System.Data.Entity;
-using Northwind.Tests.UnitOfWork;
+using Northwind.Tests.UoW;
 
 namespace Northwind.Tests.Initializers
 {
